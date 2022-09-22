@@ -43,22 +43,22 @@ Udacity course on data science.
 ### Docker
 * Customize the `.env.example` and rename to `.env`
 * General commands
-```bash
-# build image locally
-docker-compose build --pull --no-cache
+    ```bash
+    # build image locally
+    docker-compose build --pull --no-cache
 
-# start container
-docker-compose up -d
+    # start container
+    docker-compose up -d
 
-# stop container
-docker-compose stop
+    # stop container
+    docker-compose stop
 
-# remove container and network
-docker-compose down
-```
+    # remove container and network
+    docker-compose down
+    ```
 
 ### Both
-* Open a browser and navigate to `http://127.0.0.1:888`
+* Open a browser and navigate to `http://127.0.0.1:8888`
   * Docker uses the token specified in `.env`
 * Select the "python3.10.7" kernel if asked
 * Open `refactor-wine-quality.ipynb` from the left-hand column
