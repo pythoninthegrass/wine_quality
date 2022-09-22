@@ -4,11 +4,11 @@ verbose: true
 repos:
   # checks for secrets via rules (gitleaks.toml)
   - repo: https://github.com/zricethezav/gitleaks
-    rev: v8.9.0
+    rev: v8.13.0
     hooks:
       - id: gitleaks
   - repo: https://github.com/ambv/black
-    rev: 22.6.0
+    rev: 22.8.0
     hooks:
     - id: black
   - repo: https://gitlab.com/pycqa/flake8
